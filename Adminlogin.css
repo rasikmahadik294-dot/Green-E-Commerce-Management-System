@@ -1,0 +1,64 @@
+﻿body {
+    height: 663px;
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    background-color: #f0f8ff; /* Light background color */
+}
+
+.bg-img {
+    background-image: url("imgs/login-bg-alternative.jpeg"); /* Use a different background image */
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.9); /* Slightly dim the background */
+}
+
+.container {
+    position: relative;
+    max-width: 350px; /* Slightly wider container */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7); /* More opaque white */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    color: #4CAF50; /* Different green color */
+    margin-bottom: 25px;
+}
+
+b {
+    color: #333; /* Darker text color */
+    font-size: 20px; /* Larger font size */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px; /* Increased padding for inputs */
+    margin: 10px 0;
+    border: 1px solid #4CAF50; /* Matching green border */
+    box-sizing: border-box;
+    border-radius: 5px; /* Rounded corners for inputs */
+}
+
+.button {
+    border: none; /* No border */
+    background-color: #4CAF50; /* Matching button color */
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+    .button:hover {
+        background-color: #45a049; /* Darker shade on hover */
+        box-shadow: 0 0 10px #66ff66, 0 0 30px #66ff66; /* Glow effect */
+    }
